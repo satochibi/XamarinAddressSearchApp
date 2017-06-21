@@ -13,7 +13,7 @@ namespace AddressSearchApp
         {
             InitializeComponent();
 
-            MainPage = new AddressSearchApp.MainPage();
+            MainPage = new NavigationPage(new AddressSearch());
         }
 
         protected override void OnStart()
